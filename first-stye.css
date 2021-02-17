@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+#nav {
+    background-color: red;
+    height: 10%;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    float: right;
+    width: 100%;
+}
+
+#img-show {
+    background-image: url(./office.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#main-content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 18% 60% 18%;
+    gap: 2%;
+}
+
+#body {
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    gap: 3%;
+}
+
+#n1 {
+    background-color: mediumorchid;
+}
+
+#n2 {
+    background-color: gold;
+}
+
+#n3 {
+    color: white;
+    background-color: rgb(8, 7, 0);
+}
+
+#n4 {
+    background-color: rgb(0, 255, 34);
+}
+
+#aside {
+    height: 90%;
+    background-color: gray;
+}
+
+#advertisement {
+    background-color: mediumblue;
+}
+
+.button-foot {
+    background-color: black;
+    color: white;
+}
